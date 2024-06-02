@@ -680,7 +680,7 @@ body{
       display: block;
       align-items: center;
       justify-content: center;
-      height: 850px;
+      height:fit-content;
       text-align: center;
     }
     .Aboutus img{
@@ -688,7 +688,7 @@ body{
     }
     .aboutMain{
       margin-top: 3%;
-      height: 400px;
+      height:fit-content;
       width: 80%;
       margin-left:8% ;
       font-size: 1.3rem;
@@ -700,12 +700,13 @@ body{
       display: block;
       align-items: center;
       justify-content: center;
-      height: 950px;
+      height: fit-content;
       text-align: center;
     }
     .aboutMainWeb{
       margin-top: 3%;
-      height: 570px;
+      margin-bottom: 8%;
+      height: fit-content;
       width: 80%;
       margin-left:10% ;
       font-size: 1.3rem;
