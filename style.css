@@ -597,7 +597,7 @@ body{
   @media  screen and (max-width:450px) {
     /* header */
     .contact{
-      height: 120px;
+      height: fit-content;
       display: block;
     }
     .contactHeader{
@@ -671,6 +671,7 @@ body{
     }
     .wcuPoints{
       width: 80%;
+        font-size:2rem;
     }
 
     /* about us  */
