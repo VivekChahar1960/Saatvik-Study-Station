@@ -1,0 +1,756 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+html { scroll-behavior: smooth; }
+body{
+    width: 100%;
+}
+.contact{
+    height: 40px;
+    padding: 0 7% 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f1111;
+    text-align: center;
+}
+.contact a{
+    color: white;
+}
+.notice-link{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: underline;
+}
+.divider{
+    font-size:x-large;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact span{
+    color: white;
+}
+.fa-css {
+    color: #0089c8;
+    padding-right: 5px;
+  }
+.navbar{
+    padding: 0 7% 0 7%;
+    background-color: #f5f7f7;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 150px;
+}
+.navbar img{
+    width: 115px;
+}
+.logo{
+    width: 115px;
+}
+.overall-logo{
+    display: flex;
+    align-items: center;
+
+}.overall-logo span{
+    height: 40px;
+}
+.text-logo{
+    padding-left: 15px;
+}
+.text-logo a{
+    font-size:4rem;
+}
+.text-logo p{
+    font-size: 1.5rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.Search{
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 15px;
+    margin-right: 0;
+    border: none;
+    font-size: 1.5rem;
+}
+.searchbtn{
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:none;
+    font-size: 1.5rem;
+    background-color: #0089c8;
+    border-radius: 0 20px 20px 0;
+    padding: 10px 15px;
+    height: 50px;
+    margin-left: 0;
+}
+.links{
+    padding: 0 7% 0 7%;
+    background-color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.links a{
+ text-decoration: none;
+ color: white;
+ margin: 0 2% 0 2%;
+}
+.about{
+    font-size: large;
+}
+.btn{
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-size: large;
+    /* margin: 0 2% 0 2%; */
+}
+.dropimg{
+    padding-left: 5px;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    margin-left:2%;
+    margin-right: 2%;
+}
+.dropdown-options {
+    width: 100%;
+    padding: 5px;
+    display: none;
+    position: absolute;
+    background-color:#0f1111;
+  }
+.dropdown-options a{    
+    padding-top: 10px;
+    color: white;
+    font-size: large;
+}
+.dropdown:hover .dropdown-options {
+    display: block;
+    z-index: 9999999;
+}
+.show {
+    display: block;
+}
+.w3-section{
+    padding: 1.5% 7% 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    padding-top: 1.5%;
+    margin-top: 20px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  } */
+  /* .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } */
+
+  .chooseUs{
+    padding: 3% 7% 2% 7%;
+    height: 800px;
+    width: 100%;
+  }
+  .whyus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;    
+    padding-bottom: 15px;
+    font-family:'Courier New', Courier, monospace;
+  }
+  .WhyChooseUs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
+  }
+  .wcuPoints{
+    width: 20%;
+    background-color: #f6f6f6;
+    padding: 20px 0 15px;
+    width: 23%;
+    height: 320px;
+    margin-top: 15px;
+    position: relative;
+    
+  }
+  .box{
+    animation: mymove 1.5s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .box1{
+    animation: mymove 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .box2{
+    animation: mymove 1.5s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .box3{
+    animation: mymove 2s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .box4{
+    animation: mymove 2.5s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .box5{
+    animation: mymove 3s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .box6{
+    animation: mymove 3.5s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .box7{
+    animation: mymove 4s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .box8{
+    animation: mymove 4.5s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .wcuPoints img{
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .box-content{
+    display: block;
+    text-align: center;
+    margin-left:1rem ;
+    margin-right: 1rem;
+  }
+  .box-content p{
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 1.7rem;
+  }
+
+  /* animation  */
+  
+  @keyframes mymove {
+    from {top: 300px;}
+    to {top: 0;}
+  }
+
+  .Aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom:4%;
+  }
+  .Aboutus img{
+    width: 600px;
+    position: relative;
+    margin-right: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+  }
+  .aniAboutUsImg{
+    animation: moveaboutusimg 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .mainheadingaboutus{
+    font-size: 2rem;
+    text-align: center;
+    padding: 4%;
+  }
+  .aboutMain{
+    width: 600px;
+    padding-left:3% ;
+    font-size: 1.7rem;
+    position: relative;
+    
+  }
+  .aniAboutUsMain{
+    animation: moveaboutustext 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .notes{
+    background-color: #faebeb;
+    box-shadow: 10px 10px lightblue;
+    margin-top: 3%;
+    padding: 1.5%;
+  }
+
+
+  @keyframes moveaboutusimg {
+    from {right: 300px;}
+    to {right: 0;}
+  }
+  @keyframes moveaboutustext {
+    from {left: 300px;}
+    to {left: 0;}
+  }
+
+  .Aboutweb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom:4%;
+  }
+  .Aboutweb img{
+    width: 600px;
+    position: relative;
+    margin-left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+  }
+  .aniAboutWebImg{
+    animation: moveaboutwebimg 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  .mainheadingaboutweb{
+    font-size: 2rem;
+    text-align: center;
+    padding: 4%;
+  }
+  .circledots{
+    width: 20px;
+  }
+  .aboutMainWeb{
+    width: 600px;
+    padding-right:3% ;
+    font-size: 1.7rem;
+    position: relative;
+    
+  }
+  .aniAboutWebMain{
+    animation: moveaboutwebtext 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+  }
+  @keyframes moveaboutwebimg {
+    from {left: 300px;}
+    to {left: 0;}
+  }
+  @keyframes moveaboutwebtext {
+    
+    from {right: 300px;}
+    to {right: 0;}
+  }
+
+
+  .query{
+    font-size: 3rem;
+    background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0089c8;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+  }
+  .container label{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #666666;
+  }
+  .queryInput, select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=number], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding: 1.7% 7% 3% 7%;
+  }
+.footer{
+
+}
+  .line{
+    background-color: #cf4242;
+    height: 5px;
+    width: 100%;
+  }
+  .mainFooter{
+    height: 330px;
+    background-color: #0f1111;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .followus{
+    height: 150px;
+    width: 30%;
+    font-size: 2rem;
+    text-align: center;
+    color: #0089c8;
+    padding-left: 5%;
+  }
+  .followdetails{
+    padding-top: 3%;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+  }
+  .followusHeading{
+    text-align: left;
+  }
+  .followdetails a{
+    text-decoration: none;
+    color: white;
+  }
+  .contactus{
+    height: 150px;
+    font-size: 2rem;
+    width: 30%;
+    text-align: center;
+    color: #0089c8;
+  }
+  .contactusHeading{
+    text-align: left;
+  }
+  .contactdetails{
+    padding-top: 3%;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+  }
+  .contactdetails a{
+    text-decoration: none;
+    color: white;
+  }
+  .copyright{
+    height: 45px;
+    background-color: #666666;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerimg{
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+  }
+
+
+  /*  responsive css */
+
+  /* main footer  */
+  @media  screen and (max-width:450px) {
+    /* header */
+    .contact{
+      height: 120px;
+      display: block;
+    }
+    .contactHeader{
+      padding: 1%;
+    }
+    .divider{
+      visibility:hidden;
+    }
+
+    /* navbar */
+    
+    .navbar{
+      display: block;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+      padding: 0;
+    }
+    .overall-logo{
+      padding: 3%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .logo img{
+      width: 150px;
+    }
+    .text-logo{
+      width: 40%;
+    }
+    .text-logo a{
+      font-size: 2.5rem;
+    }
+    .text-logo p{
+      font-size: 1rem;
+    }
+    .search{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3%;
+    }
+    .Search{
+      height: 40px;
+      padding-left: 10px;
+      font-size: 1rem;
+    }
+    .searchbtn{
+      text-align: center;
+      height: 40px;
+      font-size: 1rem;
+      padding: 5px 10px;
+    }
+    /* menu bar */
+
+    .links{
+      height: 60px;
+      margin-bottom: 4%;
+    }
+
+    /*  middle page */
+
+    .whyus{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .chooseUs{
+      height: 2800px;
+    }
+    .wcuPoints{
+      width: 80%;
+    }
+
+    /* about us  */
+
+    .Aboutus{
+      margin-top: 6%;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      height: 850px;
+      text-align: center;
+    }
+    .Aboutus img{
+      width: 80%;
+    }
+    .aboutMain{
+      margin-top: 3%;
+      height: 400px;
+      width: 80%;
+      margin-left:8% ;
+      font-size: 1.3rem;
+    }
+
+    /* about web */
+    .Aboutweb{
+      margin-top: 3%;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      height: 950px;
+      text-align: center;
+    }
+    .aboutMainWeb{
+      margin-top: 3%;
+      height: 570px;
+      width: 80%;
+      margin-left:10% ;
+      font-size: 1.3rem;
+      text-align: left;
+    }
+    .Aboutweb img{
+      width: 80%;
+    }
+    
+    /* footer */
+
+    .mainFooter{
+      height: 700px;
+      padding-top: 3%;
+      display: block;
+      align-items: center;
+      justify-self: center;
+    }
+    .followus{
+      width: 100%;
+    }
+    .followdetails{
+      text-align: center;
+    }
+    .followusHeading{
+      text-align: center;
+    }
+    .followdetails a{
+      text-align: center;
+    }
+    .contactus{
+      margin-top: 5%;
+      margin-bottom: 7%;
+      width: 100%;
+      padding-left:5% ;
+    }
+    .contactusHeading{
+      text-align: center;
+    }
+    .contactdetails{
+      text-align: center;
+    }
+    .googlemap{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
