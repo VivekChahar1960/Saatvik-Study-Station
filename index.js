@@ -32,6 +32,16 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+// menu btn click functuion
+
+var x=document.getElementById("menubtn");
+x.addEventListener("click" , clickfunction);
+function clickfunction(){
+  var y=document.getElementById("menu");
+  y.classList.add('showmenu');
+}
+
+
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
