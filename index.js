@@ -37,31 +37,44 @@ function currentSlide(n) {
 
 
 function showDrpDwn(){
-  document.getElementById("dropdown-options").classList.add("showDropdown");
+  var click = document.getElementById("dropdown-options");
+      if (click.style.display === "none") {
+         click.style.display = "block";
+      } else {
+         click.style.display = "none";
+      }
 }
 function showDrpDwn2(){
-  document.getElementById("dropdown-options2").classList.add("showDropdown");
+  var click = document.getElementById("dropdown-options2");
+      if (click.style.display === "none") {
+         click.style.display = "block";
+      } else {
+         click.style.display = "none";
+      }
 }
 function showDrpDwn3(){
-  document.getElementById("dropdown-options3").classList.add("showDropdown");
+  var click = document.getElementById("dropdown-options3");
+      if (click.style.display === "none") {
+         click.style.display = "block";
+      } else {
+         click.style.display = "none";
+      }
 }
 function showDrpDwn4(){
-  document.getElementById("dropdown-options4").classList.add("showDropdown");
+  var click = document.getElementById("dropdown-options4");
+      if (click.style.display === "none") {
+         click.style.display = "block";
+      } else {
+         click.style.display = "none";
+      }
 }
 function showDrpDwn5(){
-  document.getElementById("dropdown-options5").classList.add("showDropdown");
-}
-window.onclick = function(event) {
-  if (!event.target.matches('.btn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-options");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('showDropdown')) {
-        openDropdown.classList.remove('showDropdown');
+  var click = document.getElementById("dropdown-options5");
+      if (click.style.display === "none") {
+         click.style.display = "block";
+      } else {
+         click.style.display = "none";
       }
-    }
-  }
 }
 
 // menu btn click functuion
