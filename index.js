@@ -76,6 +76,18 @@ function showDrpDwn5(){
          click.style.display = "none";
       }
 }
+// window.onclick = function(event) {
+//   if (!event.target.matches('.btn')) {
+//     var dropdowns = document.getElementsByClassName("dropdown-options");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains('showDropdown')) {
+//         openDropdown.classList.remove('showDropdown');
+//       }
+//     }
+//   }
+// }
 
 // menu btn click functuion
 
