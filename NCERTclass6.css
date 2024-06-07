@@ -7,6 +7,8 @@
 html { scroll-behavior: smooth; }
 body{
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .contact{
     height: 40px;
@@ -105,11 +107,11 @@ body{
 }
 .menu{
   padding-top: 0.7%;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1rem;
+  overflow: hidden;
 }
 .menubtn{
   display: none;
@@ -255,7 +257,12 @@ body{
 .namesofchapters ul{
     list-style: none;
 }
-
+.c6book{
+  width: 290px;
+}
+.c6sstbook{
+  width: 320px;
+}
 
 
 .footer{
@@ -401,6 +408,7 @@ body{
       margin-bottom: 4%;
       /* display: block; */
       align-items: center;
+      overflow: hidden;
     }
     .menu{
       display: none;
@@ -417,6 +425,7 @@ body{
     }
     .menu.responsive {
       background-color: #0f1111;
+      overflow: hidden;
       display: block;
       text-align: left;
       position: relative;
@@ -443,7 +452,27 @@ body{
       width: 100%;
       text-align: left;
     }
-    
+
+
+    /* contents books */
+    .ClassBooks{
+      font-size: 2.3rem;
+    }
+    .subjects{
+      margin-top: 10%;
+    }
+    .subjects div{
+      width: 40%;
+      }
+    .subjects img{
+      width: 90%;
+      padding: 1%;
+      margin: 0;
+    }
+    .subjects div p{
+      font-size: 1.3rem;
+    }
+
     /* footer */
 
     .mainFooter{
