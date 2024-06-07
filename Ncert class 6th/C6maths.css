@@ -439,6 +439,7 @@ body{
     }
     .followus{
       width: 100%;
+        padding:0;
     }
     .followdetails{
       text-align: center;
@@ -453,7 +454,7 @@ body{
       margin-top: 5%;
       margin-bottom: 7%;
       width: 100%;
-      padding-left:5% ;
+      padding:0;
     }
     .contactusHeading{
       text-align: center;
