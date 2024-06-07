@@ -201,6 +201,10 @@ body{
 .subjects div p{
     font-size: 1.8rem;
 }
+.subjects div a{
+    color:black;
+    font-size: 1.8rem;
+}
 .chapters{
     background-color: #0089c8;
     width: 65%;
