@@ -16,241 +16,217 @@
     <title>Saatvik Studies</title>
   </head>
   <body>
-    <div class="header">
-      <div class="contact">
-        <div class="contactHeader">
-          <i class="fa-solid fa-phone fa-css"></i><a href="tel:97738 88338" >+91 97738 88338 ,</a> <a href="tel:8383030389">+91 8383030389</a>
-        <span class="divider">|</span>
+    <div class="mainDiv">
+      <div class="header">
+        <div class="contact">
+          <div class="contactHeader">
+            <i class="fa-solid fa-phone fa-css"></i><a href="tel:97738 88338" >+91 97738 88338 ,</a> <a href="tel:8383030389">+91 8383030389</a>
+          <span class="divider">|</span>
+          </div>
+          <div class="contactHeader">
+            <i class="fa-solid fa-envelope fa-css"></i><a href="">Www.saatvikstudies@gmail.com</a>
+          <span class="divider">|</span>
+          </div>
+          <div class="Notice">
+            <i class="fa-solid fa-hand-pointer fa-css"></i><span>Notice Board:- </span><a class="notice-link" href=""
+            >Class 6 Science Air Around Us Chapertwise Notes Uploaded</a>
+          </div>
         </div>
-        <div class="contactHeader">
-          <i class="fa-solid fa-envelope fa-css"></i><a href="">Www.saatvikstudies@gmail.com</a>
-        <span class="divider">|</span>
+        <div class="navbar">
+          <div class="overall-logo">
+              <div class="logo">
+                  <img src="saatvik logo final.png" alt="Logo" />
+                </div>
+                <div class="text-logo">
+                    <a href="" class="fa-css saat">Saatvik Study Station</a>
+                    <br />
+                    <p class="fa-css choose">Choose Us , Be Ahead</p>
+                  </div>
+          </div>
+          <div class="search">
+              <input type="text" placeholder="Search" class="Search" />
+              <button class="searchbtn">Search</button>
+          </div>
         </div>
-        <div class="Notice">
-          <i class="fa-solid fa-hand-pointer fa-css"></i><span>Notice Board:- </span><a class="notice-link" href=""
-          >Class 6 Science Air Around Us Chapertwise Notes Uploaded</a>
-        </div>
-      </div>
-      <div class="navbar">
-        <div class="overall-logo">
-            <div class="logo">
-                <img src="saatvik logo final.png" alt="Logo" />
+        <div class="links" id="links">
+          <button class="menubtn" id="menubtn" onclick="clickfunctionMenu()"><i class="fa-solid fa-bars dropimgMenu"></i>Menu</button>
+          <div class="menu" id="menu" >
+            <div class="dropdown" id="dropdown">
+              <button class="btn" onclick="showDrpDwn()">NCERT<i class="fa-solid fa-caret-down dropimg"></i></button>
+              <div class="dropdown-options" id="dropdown-options">
+                <a href="#">Class 1</a><br>
+                <a href="#">Class 2</a><br>
+                <a href="#">Class 3</a><br>
+                <a href="#">Class 4</a><br>
+                <a href="#">Class 5</a><br>
+                <a href="#">Class 6</a><br>
+                <a href="#">Class 7</a><br>
+                <a href="#">Class 8</a><br>
+                <a href="#">Class 9</a><br>
+                <a href="#">Class 10</a><br>
+                <a href="#">Class 11</a><br>
+                <a href="#">Class 12</a><br>
               </div>
-              <div class="text-logo">
-                  <a href="" class="fa-css saat">Saatvik Study Station</a>
-                  <br />
-                  <p class="fa-css choose">Choose Us , Be Ahead</p>
-                </div>
-        </div>
-        <div class="search">
-            <input type="text" placeholder="Search" class="Search" />
-            <button class="searchbtn">Search</button>
-        </div>
-      </div>
-      <div class="links" id="links">
-        <button class="menubtn" id="menubtn"><i class="fa-solid fa-bars dropimgMenu"></i>Menu</button>
-        <div class="menu" id="menu" >
-          <a class="about"href="#Aboutus">About Us</a>
-          <div class="dropdown" id="dropdown">
-            <button class="btn" onclick="showDrpDwn()">NCERT<i class="fa-solid fa-caret-down dropimg"></i></button>
-            <div class="dropdown-options" id="dropdown-options">
-              <a href="#">Class 1</a><br>
-              <a href="#">Class 2</a><br>
-              <a href="#">Class 3</a><br>
-              <a href="#">Class 4</a><br>
-              <a href="#">Class 5</a><br>
-              <a href="#">Class 6</a><br>
-              <a href="#">Class 7</a><br>
-              <a href="#">Class 8</a><br>
-              <a href="#">Class 9</a><br>
-              <a href="#">Class 10</a><br>
-              <a href="#">Class 11</a><br>
-              <a href="#">Class 12</a><br>
             </div>
-          </div>
-          <div class="dropdown" id="dropdown">
-            <button class="btn" onclick="showDrpDwn2()">ChapterWise Notes<i class="fa-solid fa-caret-down dropimg"></i></button>
-            <div class="dropdown-options" id="dropdown-options2">
-              
-              <a href="#">Class 6</a>
-                <br>
-                <a href="#">Class 7</a>
-                <br>
-                <a href="#">Class 8</a>
-                <br>
-                <a href="#">Class 9</a>
-                <br>
-                <a href="#">Class 10</a>
-                <br>
-                <a href="#">Class 11</a>
-                <br>
-                <a href="#">Class 12</a>
-            </div>
-          </div>
-          <div class="dropdown" id="dropdown">
-            <button class="btn" onclick="showDrpDwn3()">Exercise Questions<i class="fa-solid fa-caret-down dropimg"></i></button>
-            <div class="dropdown-options" id="dropdown-options3">
+            <div class="dropdown" id="dropdown">
+              <button class="btn" onclick="showDrpDwn2()">ChapterWise Notes<i class="fa-solid fa-caret-down dropimg"></i></button>
+              <div class="dropdown-options" id="dropdown-options2">
+                
                 <a href="#">Class 6</a>
-                <br>
-                <a href="#">Class 7</a>
-                <br>
-                <a href="#">Class 8</a>
-                <br>
-                <a href="#">Class 9</a>
-                <br>
-                <a href="#">Class 10</a>
-                <br>
-                <a href="#">Class 11</a>
-                <br>
-                <a href="#">Class 12</a>
+                  <br>
+                  <a href="#">Class 7</a>
+                  <br>
+                  <a href="#">Class 8</a>
+                  <br>
+                  <a href="#">Class 9</a>
+                  <br>
+                  <a href="#">Class 10</a>
+                  <br>
+                  <a href="#">Class 11</a>
+                  <br>
+                  <a href="#">Class 12</a>
+              </div>
+            </div>
+            <div class="dropdown" id="dropdown">
+              <button class="btn" onclick="showDrpDwn3()">Exercise Questions<i class="fa-solid fa-caret-down dropimg"></i></button>
+              <div class="dropdown-options" id="dropdown-options3">
+                  <a href="#">Class 6</a>
+                  <br>
+                  <a href="#">Class 7</a>
+                  <br>
+                  <a href="#">Class 8</a>
+                  <br>
+                  <a href="#">Class 9</a>
+                  <br>
+                  <a href="#">Class 10</a>
+                  <br>
+                  <a href="#">Class 11</a>
+                  <br>
+                  <a href="#">Class 12</a>
+              </div>
+            </div>
+            <div class="dropdown" id="dropdown">
+              <button class="btn" onclick="showDrpDwn4()">Question Banks<i class="fa-solid fa-caret-down dropimg"></i></button>
+              <div class="dropdown-options" id="dropdown-options4">
+                  <a href="#">Class 6</a>
+                  <br>
+                  <a href="#">Class 7</a>
+                  <br>
+                  <a href="#">Class 8</a>
+                  <br>
+                  <a href="#">Class 9</a>
+                  <br>
+                  <a href="#">Class 10</a>
+                  <br>
+                  <a href="#">Class 11</a>
+                  <br>
+                  <a href="#">Class 12</a>
+              </div>
+            </div>
+            <div class="dropdown" id="dropdown">
+              <button class="btn" onclick="showDrpDwn5()">Mock Tests<i class="fa-solid fa-caret-down dropimg"></i></button>
+              <div class="dropdown-options" id="dropdown-options5">
+                  <a href="#">Class 6</a>
+                  <br>
+                  <a href="#">Class 7</a>
+                  <br>
+                  <a href="#">Class 8</a>
+                  <br>
+                  <a href="#">Class 9</a>
+                  <br>
+                  <a href="#">Class 10</a>
+                  <br>
+                  <a href="#">Class 11</a>
+                  <br>
+                  <a href="#">Class 12</a>
+              </div>
+            </div>
+            <a class="about" href="#ContactUs">Contact Us</a>
+          
+          </div>
+        </div>
+  
+        <!--  content -->
+        <div class="ClassBooks">
+          <p>Class 6 NCERT Books  </p>
+        </div>
+        <div class="subjects">
+            <div>
+              <a href="Ncert class 6th/C6maths.html">
+                <img src="Ncert class 6th/ncert class 6 maths.jpg" alt="">
+                <p>Mathematics</p>
+              </a>
+            </div>
+            <div>
+                <img src="Ncert class 6th/ncert class 6 science.jpg" alt="" >
+                <p>Science</p>
+            </div>
+          <div>
+              <img src="Ncert class 6th/ncert class 6 english 1.jpg" alt="" class="c6book">
+              <p>Honeysuckle</p>
+          </div>
+          <div>
+              <img src="Ncert class 6th/ncert class 6 english 2.jpg" alt="">
+              <p>A pact with the Sun</p>
+          </div>
+          <div>
+              <img src="Ncert class 6th/ncert class 6 hindi 1.jpg" alt="">
+              <p>वसंत 1</p>
+          </div>
+          <div>
+              <img src="Ncert class 6th/ncert class 6 hindi 2.jpg" alt="">
+              <p>बाल रामकथा</p>
+          </div>
+          <div>
+              <img src="Ncert class 6th/ncert class 6 sst 1.jpg" alt="" class="c6sstbook">
+              <p>Civics</p>
+          </div>
+          <div>
+              <img src="Ncert class 6th/ncert class 6 sst 2.jpg" alt="" class="c6sstbook">
+              <p>History </p>
+          </div>
+          <div>
+              <img src="Ncert class 6th/ncert class 6 sst 3.jpg" alt="">
+              <p>Geography</p>
+          </div>
+          <div>
+              <img src="Ncert class 6th/ncert class 6 sanskrit.jpg" alt="" class="c6book">
+              <p>रुचिरा - प्रथमो भग</p>
+          </div>
+        </div>
+  
+  
+  
+        <div class="footer">
+          <div class="line">
+          </div>
+          <div class="mainFooter">
+            <div class="followus">
+              <p class="followusHeading">Follow Us</p>
+              <div class="followdetails">
+                <i class="fa-brands fa-instagram footerimg"></i><a href="https://www.instagram.com/saatvikstudies/" target="_blank">Instagram</a><br>
+                <i class="fa-brands fa-youtube footerimg"></i><a href="http://">YouTube</a><br>
+                <i class="fa-solid fa-envelope footerimg"></i><a href="mailto: Www.saatvikstudies@gmail.com">Email</a><br>
+                <i class="fa-brands fa-telegram footerimg"></i><a href="https://t.me/SaatvikStudies" target="_blank">Telegram</a><br>
+              </div>
+            </div>
+            <div class="contactus">
+              <p class="contactusHeading" id="ContactUs">Contact Us</p>
+              <div class="contactdetails">
+                <i class="fa-solid fa-phone footerimg"></i><a href="tel:9773888338">Phone: +91 9773888338 ,</a><a href="tel:8383030389">+91 8383030389</a><br>
+                <i class="fa-solid fa-envelope footerimg "></i><a href="mailto: Www.saatvikstudies@gmail.com"> Email: Www.saatvikstudies@gmail.com</a><br>
+                <i class="fa-solid fa-house footerimg"></i><a href="https://maps.app.goo.gl/Uj48DvDNkH5wRvor8" target="_blank"></i>Address: 400 , SultanPur Dabas , N-delhi 110039</a>
+              </div>
+            </div>
+            <div class="googlemap">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.9589480633927!2d77.04021510369861!3d28.76525590379963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d070059d42753%3A0xcdba2a72c2cb3344!2sSaatvik%20Study%20Station!5e0!3m2!1sen!2sin!4v1717325677718!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-          <div class="dropdown" id="dropdown">
-            <button class="btn" onclick="showDrpDwn4()">Question Banks<i class="fa-solid fa-caret-down dropimg"></i></button>
-            <div class="dropdown-options" id="dropdown-options4">
-                <a href="#">Class 6</a>
-                <br>
-                <a href="#">Class 7</a>
-                <br>
-                <a href="#">Class 8</a>
-                <br>
-                <a href="#">Class 9</a>
-                <br>
-                <a href="#">Class 10</a>
-                <br>
-                <a href="#">Class 11</a>
-                <br>
-                <a href="#">Class 12</a>
-            </div>
-          </div>
-          <div class="dropdown" id="dropdown">
-            <button class="btn" onclick="showDrpDwn5()">Mock Tests<i class="fa-solid fa-caret-down dropimg"></i></button>
-            <div class="dropdown-options" id="dropdown-options5">
-                <a href="#">Class 6</a>
-                <br>
-                <a href="#">Class 7</a>
-                <br>
-                <a href="#">Class 8</a>
-                <br>
-                <a href="#">Class 9</a>
-                <br>
-                <a href="#">Class 10</a>
-                <br>
-                <a href="#">Class 11</a>
-                <br>
-                <a href="#">Class 12</a>
-            </div>
-          </div>
-          <a class="about" href="#ContactUs">Contact Us</a>
-        
-        </div>
-      </div>
-
-      <!--  content -->
-      <div class="ClassBooks">
-        <p>Class 6 NCERT Books  </p>
-      </div>
-      <div class="subjects">
-        <div onclick="mathchpclicked()">
-            <img src="Ncert class 6th/ncert class 6 maths.jpg" alt="">
-            <p>Mathematics</p>
-        </div>
-        <div class="chapters" id="mathschapters">
-                <div class="mainheading">
-                    <span class="chaptersheading">Chapters</span>
-                    <button class="closebtn" id="closebtn" onclick="mathchclose()"> <i class="fa-solid fa-x"></i></button>
-                </div>
-                <div class="namesofchapters">
-                    
-                        <button>01</button> Chapter 1 Knowing Our Numbers <br>
-                        <button>02</button>Chapter 2 Whole Numbers <br>
-                        <button>03</button>Chapter 3 Playing With Numbers <br>
-                        <button>04</button>Chapter 4 Basic Geometrical Ideas <br>
-                        <button>05</button>Chapter 5 Understanding Elementary Shape <br>
-                        <button>06</button>Chapter 6 Integers <br>
-                        <button>07</button>Chapter 7 Fractions <br>
-                        <button>08</button>Chapter 8 Decimals <br>
-                        <button>09</button>Chapter 9 Data Handling <br>
-                        <button>10</button>Chapter 10 Mensuration <br>
-                        <button>11</button>Chapter 11 Algebra <br>
-                        <button>12</button>Chapter 12 Ratio and Proportion <br>
-                        <button>13</button>Chapter 13 Symmetry <br>
-                        <button>14</button>Chapter 14 Practical Geometry <br>
-                    </ul>
-                </div>
-        </div>
-        
-
-
-        <div>
-            <img src="Ncert class 6th/ncert class 6 science.jpg" alt="" >
-            <p>Science</p>
-        </div>
-        <div>
-            <img src="Ncert class 6th/ncert class 6 english 1.jpg" alt="" style="width: 290px;">
-            <p>Honeysuckle</p>
-        </div>
-        <div>
-            <img src="Ncert class 6th/ncert class 6 english 2.jpg" alt="">
-            <p>A pact with the Sun</p>
-        </div>
-        <div>
-            <img src="Ncert class 6th/ncert class 6 hindi 1.jpg" alt="">
-            <p>वसंत 1</p>
-        </div>
-        <div>
-            <img src="Ncert class 6th/ncert class 6 hindi 2.jpg" alt="">
-            <p>बाल रामकथा</p>
-        </div>
-        <div>
-            <img src="Ncert class 6th/Ncert class 6 sst 1.jpg" alt="" style="width: 320px;">
-            <p>Civics</p>
-        </div>
-        <div>
-            <img src="Ncert class 6th/ncert class 6 sst 2.jpg" alt="" style="width: 320px;">
-            <p>History </p>
-        </div>
-        <div>
-            <img src="Ncert class 6th/ncert class 6 sst 3.jpg" alt="">
-            <p>Geography</p>
-        </div>
-        <div>
-            <img src="Ncert class 6th/ncert class 6 sanskrit.jpg" alt="" style="width: 280px;">
-            <p>रुचिरा - प्रथमो भग</p>
-        </div>
-      </div>
-
-
-
-      <div class="footer">
-        <div class="line">
-        </div>
-        <div class="mainFooter">
-          <div class="followus">
-            <p class="followusHeading">Follow Us</p>
-            <div class="followdetails">
-              <i class="fa-brands fa-instagram footerimg"></i><a href="https://www.instagram.com/saatvikstudies/" target="_blank">Instagram</a><br>
-              <i class="fa-brands fa-youtube footerimg"></i><a href="http://">YouTube</a><br>
-              <i class="fa-solid fa-envelope footerimg"></i><a href="mailto: Www.saatvikstudies@gmail.com">Email</a><br>
-              <i class="fa-brands fa-telegram footerimg"></i><a href="https://t.me/SaatvikStudies" target="_blank">Telegram</a><br>
-            </div>
-          </div>
-          <div class="contactus">
-            <p class="contactusHeading" id="ContactUs">Contact Us</p>
-            <div class="contactdetails">
-              <i class="fa-solid fa-phone footerimg"></i><a href="tel:9773888338">Phone: +91 9773888338 ,</a><a href="tel:8383030389">+91 8383030389</a><br>
-              <i class="fa-solid fa-envelope footerimg "></i><a href="mailto: Www.saatvikstudies@gmail.com"> Email: Www.saatvikstudies@gmail.com</a><br>
-              <i class="fa-solid fa-house footerimg"></i><a href="https://maps.app.goo.gl/Uj48DvDNkH5wRvor8" target="_blank"></i>Address: 400 , SultanPur Dabas , N-delhi 110039</a>
-            </div>
-          </div>
-          <div class="googlemap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.9589480633927!2d77.04021510369861!3d28.76525590379963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d070059d42753%3A0xcdba2a72c2cb3344!2sSaatvik%20Study%20Station!5e0!3m2!1sen!2sin!4v1717325677718!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="copyright">
+            Copyright @2024 Saatvik Study Station
           </div>
         </div>
-        <div class="copyright">
-          Copyright @2024 Saatvik Study Station
-        </div>
-      </div>
+    </div>
     <script src="NcertClass6.js" defer></script>
   </body>
 </html>
