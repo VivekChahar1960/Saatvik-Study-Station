@@ -1,38 +1,3 @@
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {
-    myIndex = 1;
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  x[myIndex - 1].style.display = "block";
-  dots[myIndex-1].className += " active";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-
 //dropdown  clickable 
 
 
@@ -77,9 +42,7 @@ function showDrpDwn5(){
       }
 }
 
-var y=document.getElementById("menubtn");
-y.addEventListener("click" , clickfunction);
-function clickfunction(){
+function clickfunctionMenu(){
   var x=document.getElementById("menu");
   if (x.className === "menu") {
     x.className += " responsive";
