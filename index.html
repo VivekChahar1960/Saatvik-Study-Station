@@ -157,6 +157,51 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div> -->
     </div>
+
+    <a href="#feebackform">
+        <div class="stickyFeedback" onclick="feedbackclicked()" id="stickyFeedback">
+          <!-- <p>Feedback</p> -->
+          <img src="feedback.png" alt="">
+        </div>
+      </a>
+      <div class="feebackform" id="feebackform">
+        
+        <div class="textareaclose">
+          <!-- <p>FEEDBACK</p> -->
+          <p><i class="fa-solid fa-x" id="closebtnfeedback" onclick="feedbackclose()"></i></p>
+        </div>
+        <div class="Rateus">
+          <div class="howrate" id="howrate">
+            <p>How would you rate your Experience?</p>
+          </div>
+          <div class="stars">
+            <div id="emojiangry" onclick="emojiclicked1()">
+              <img src="angry.png" alt="">
+              <p>Bad</p>
+            </div>
+            <div id="emojisad" onclick="emojiclicked2()">
+              <img src="sad.png" alt="">
+              <p>Dislike</p>
+            </div>
+            <div id="emojinormal" onclick="emojiclicked3()">
+              <img src="normal.png" alt="">
+              <p>Neutral</p>
+            </div>
+            <div id="emojihappy" onclick="emojiclicked4()">
+              <img src="happy.png" alt="">
+              <p>Like</p>
+            </div>
+            <div id="emojiveryhappy" onclick="emojiclicked5()">
+              <img src="very happy.png" alt="">
+              <p>Love It</p>
+            </div>
+          </div>
+          <div class="rateusclicked" id="rateusclicked">
+            <textarea name="Feedback" id="feedback" cols="100" rows="7" placeholder="Please share in details , What we can improve in your Website Experience" class="feedback"></textarea>
+            <button type="submit" class="submitfeedback" onclick="submitbtn()">Submit</button> 
+          </div>
+        </div>
+      </div>
       <div class="slideshow-container">
 
         <!-- Full-width images with number and caption text -->
