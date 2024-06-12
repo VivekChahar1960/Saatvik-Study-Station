@@ -164,6 +164,134 @@ body{
 .show {
     display: block;
 }
+
+
+.stickynavbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999999;
+}
+.stickyFeedback{
+  position: sticky;
+  font-size: 1.2rem;
+  padding: 0.5%;
+  top: 85%;
+  left: 94%;
+  background-color: #0f1111;
+  color: #0089c8;
+  height: fit-content;
+  width:fit-content;
+  z-index: 99999999;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 1%;
+}
+
+    .stickyFeedback img{
+      width: 40px;
+    }
+.feebackform{
+  position: absolute;
+  top: -70%;
+  left: 30%;
+  height: 400px;
+  width: 40%;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 1%;
+  color: white;
+  z-index: 9999999999999;
+  box-shadow: 0px 0px 10px 10px #0f1111;
+}
+.Rateus{
+  
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+
+}
+.howrate{
+  margin-bottom: 10%;
+  font-size: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #0f1111;
+  font-weight: 700;
+}
+.stars{
+  display: flex;
+  width: fit-content;
+  
+}
+.stars div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  opacity: 0.5;
+  
+}
+.stars img{
+  width: 65px;
+  
+}
+.stars div:hover{
+  opacity: 1;
+}
+.displayreview{
+  display: none;
+}
+.stars p{
+  margin-top: 15%;
+  color: #0f1111;
+  font-weight: 600;
+}
+.Rateus i{
+  color: #cf4242;
+  font-size: 2rem;
+  padding: 2%;
+}
+.textareaclose{
+  padding-left: 30%;
+  display: flex;
+  justify-content: end;
+}
+.textareaclose p{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0f1111;
+  padding: 1.5%;
+  padding-left: 2.1%;
+  padding-right: 2.1%;
+}
+.rateusclicked{
+  display: none;
+  height: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+.feedback{
+  /* width: 99.6%; */
+  border-radius: 20px;
+}
+.submitfeedback{
+  padding: 1%;
+  background-color: #0089c8;
+  color: #0f1111;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  width:30%;
+  border-radius: 10px;
+}
 .w3-section{
     padding: 1.5% 7% 0 7%;
     display: flex;
@@ -735,6 +863,37 @@ body{
       display: block;
       position: absolute;
     } */
+
+          .stickyFeedback{
+      top: 93%;
+    }
+    .stickyFeedback img{
+      width: 40px;
+    }
+
+    .feebackform{
+      width: 80%;
+      height: 38%;
+      left: 10%;
+    }
+    .howrate p{
+      font-size: 2.3rem;
+    }
+    .stars{
+      margin-top: 10%;
+    }
+    .stars div{
+      width: 60px;
+    }
+    .stars img{
+      width: 40px;
+    }
+    .stars p{
+      font-size: 1rem;
+    }
+    .Rateus{
+      padding-top: 0;
+    }
 
     /*  middle page */
 
