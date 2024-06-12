@@ -104,6 +104,9 @@ function clickfunction(){
 }
 
 
+function menuscrolled(){
+  
+}
 window.addEventListener('scroll', function(){
   const x=document.querySelector('#links');
   if(document.documentElement.scrollTop > 190){
@@ -405,6 +408,7 @@ function submitbtn(){
   k.style.display="none";
   l.style.display="flex";
 }
+
 
 function showSlides(n) {
   let i;
