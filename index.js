@@ -316,6 +316,7 @@ function feedbackclose(){
   j.style.display="flex";
   k.style.display="none";
   l.style.display="flex";
+  location.reload();
 }
 
 function submitbtn(){
@@ -407,6 +408,7 @@ function submitbtn(){
   j.style.display="flex";
   k.style.display="none";
   l.style.display="flex";
+  location.reload();
 }
 
 
